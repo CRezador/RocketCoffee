@@ -1,0 +1,67 @@
+/*----- RESET -----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*----- VARIABLES -----*/
+:root {
+  --backgrond: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+  --font: 'Maronpe', sans-serif;
+}
+
+/*----- BASE -----*/
+
+body {
+  font: 400 1.875rem var(--font);
+  color: var(--text-color);
+  background-color: var(--backgrond);
+}
+
+img.logo {
+  content: url('./assets/logo-mobile.svg');
+}
+
+.title {
+  color: var(--text-color-menu-mobile);
+}
+
+.icon-arrow-button {
+  content: url(./assets/arrow.svg);
+  padding-left: 0.625rem;
+}
+
+.button {
+  display: flex;
+
+  font: 700 0.687rem var(--font);
+  color: var(--text-color);
+
+  align-items: center;
+  justify-content: center;
+  width: 10.8rem;
+  height: 2.18rem;
+
+  background-color: var(--backgrond);
+  border: 1px solid #8257e5;
+  border-radius: 6px;
+}
